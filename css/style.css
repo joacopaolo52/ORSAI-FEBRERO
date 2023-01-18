@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100vw;
+
+}
+
+body {
+    background-image: url('../assets/fondo.jpg');
+    background-attachment: fixed;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+h3 {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100vw;
+    padding: 20px;
+}
+
+        /**************** NAVBAR *******************/
+
+nav {
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    flex-wrap: wrap;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    margin: auto;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin:auto;
+    padding: 20px;
+}
+
+nav a:hover, h1:hover {
+    color: #70b22b;
+}
+.contacto {
+    width: 50%;
+    margin: auto;
+    margin-left: 20%;
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    nav a, .contacto {
+        display: none;
+    }
+    h1 {
+       padding: 10px;
+       font-size: 25px;
+    }
+}
+
+        /**************** BANNER *******************/
+
+#banner{
+    background-image: url('../assets/banner.png') ;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 600px;
+}
+
+
+
+
+        /**************** TORNEO *******************/
+
+#torneo {
+    width: 100vw;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.381);
+    background-image: url('../assets/sectiontorneo.jpg');
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#torneoSections {
+    width: 350px;
+    height: 175px;
+    border: solid white 2px;
+    margin: 20px 20px 100px 20px;
+    padding: 10px;
+    background-image: url('../assets/fondo52.jpg');
+    text-decoration: none;
+    display: flex;
+}
+
+#torneoSections h4 {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+
+        /**************** GALERÍA *******************/
+
+
+#galeria {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria img {
+    width: 450px;
+    padding: 50px 10px;
+
+}
+#galeria img:hover {
+    filter: blur(1px);
+    cursor: pointer;
+}
+
+
+#verMas {
+    font-size: 30px;
+    padding: 20px;
+    width: 100vw;
+    background-image: url('../assets/sectiontorneo.jpg');
+    background-attachment: fixed;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#verMas:hover {
+    background-image: url('../assets/fondo99.png');
+    background-color: #71b22b5e;
+    color: white;
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    #verMas {
+        font-size: 20px;
+        width: 70vw;
+    }
+    #galeria img {
+        width: 80vw;
+        padding: 50px 10px;
+    }
+}
+
+    /**************** NOSOTROS *******************/
+
+.nosotros {
+    background-color: black;
+    color: white;
+}
+.nosotros h3 {
+    width: auto;
+    border-top: solid white 3px;
+}
+.nosotros iframe {
+    margin-bottom: 80px;
+}
+
+/**************** FOOTER *******************/
+footer {
+    height: 300px;
+    background-image: url('../assets/sectiontorneo.jpg');
+    background-attachment: fixed;
+}

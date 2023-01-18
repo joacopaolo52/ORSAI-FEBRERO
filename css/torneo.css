@@ -1,0 +1,116 @@
+body {
+    background-image: url('../assets/fondo99.png');
+    background-color: rgba(0, 0, 0, 0.853);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.nazi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabla-posiciones, #tabla-goleadores, #tabla-vallas, #tabla-fairplay, #tabla-sancionados, #tabla-fixture {
+    width: 70vw;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+}
+
+#tabla-posiciones {
+    display: block;
+}
+
+#tabla-fixture th, #tabla-fixture td {
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.accordion-button {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.accordion-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ganador {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#tabla-posiciones th, #tabla-posiciones td, #tabla-goleadores th, #tabla-goleadores td, #tabla-vallas th, #tabla-vallas td, #tabla-fairplay th, #tabla-fairplay td, #tabla-sancionados th, #tabla-sancionados td {
+    padding: 20px 10px;
+}
+
+
+.menu-torneo {
+    background-color: transparent;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item-torneo {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    background-color: black;
+    border: solid white 1px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.item-torneo:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+/* RESPONSIVE */
+
+@media (min-width:320px) and (max-width:500px) {
+    #tabla-posiciones th, #tabla-posiciones td, #tabla-goleadores th, #tabla-goleadores td, #tabla-vallas th, #tabla-vallas td, #tabla-fairplay th, #tabla-fairplay td, #tabla-sancionados th, #tabla-sancionados td {
+        padding: 15px 7px;
+    }
+    #tabla-posiciones, #tabla-goleadores, #tabla-vallas, #tabla-fairplay, #tabla-sancionados  {
+        font-size: 10px;
+        width: 85vw;
+    }
+    .item-torneo {
+        font-size: 10px;
+    }
+    #tabla-fixture {
+        width: 90vw;
+    }
+}
+
+@media (min-width:500px) and (max-width:768px) {
+    #tabla-posiciones, #tabla-goleadores, #tabla-vallas, #tabla-fairplay, #tabla-sancionados  {
+        font-size: 15px;
+    }
+    .item-torneo {
+        font-size: 10px;
+    }
+}

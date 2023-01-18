@@ -1,5 +1,13 @@
-body {
-    background-image: url('../assets/sectiontorneo.jpg');
+
+
+.titulo {
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  background-image: url('../assets/sectiontorneo.jpg');
 }
 
 /* GALERÍA */
@@ -14,6 +22,9 @@ body {
     .columnGalery {
         flex: 100%;
 
+    }
+    .titulo {
+      font-size: 35px;
     }
 }
 

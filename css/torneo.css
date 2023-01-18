@@ -17,6 +17,7 @@ html {
     width: 70vw;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 40px;
     font-size: 20px;
     font-weight: bold;
     display: none;
@@ -24,7 +25,7 @@ html {
 }
 
 #tabla-posiciones {
-    display: block;
+    display: table;
 }
 
 #tabla-fixture th, #tabla-fixture td {

@@ -21,7 +21,7 @@ const tablaSancionados = document.querySelector(`#tabla-sancionados`);
 
 posiciones.addEventListener('click', () => {
     posiciones.setAttribute('class', 'item-torneo posiciones active');
-    tablaPosiciones.setAttribute(`style`, `display: block ;`);
+    tablaPosiciones.setAttribute(`style`, `display: table ;`);
 
     fixture.setAttribute('class', 'item-torneo fixture');
     tablaFixture.setAttribute(`style`, `display: none;`);
@@ -71,7 +71,7 @@ goleadores.addEventListener('click', () => {
     tablaFixture.setAttribute(`style`, `display: none;`);
 
     goleadores.setAttribute('class', 'item-torneo goleadores active');
-    tablaGoleadores.setAttribute(`style`, `display: block;`);
+    tablaGoleadores.setAttribute(`style`, `display: table;`);
 
     vallas.setAttribute('class', 'item-torneo vallas');
     tablaVallas.setAttribute(`style`, `display: none;`);
@@ -95,7 +95,7 @@ vallas.addEventListener('click', () => {
     tablaGoleadores.setAttribute(`style`, `display: none;`);
 
     vallas.setAttribute('class', 'item-torneo vallas active');
-    tablaVallas.setAttribute(`style`, `display: block;`);
+    tablaVallas.setAttribute(`style`, `display: table;`);
 
     fairplay.setAttribute('class', 'item-torneo fairplay');
     tablaFairplay.setAttribute(`style`, `display: none;`);
@@ -119,7 +119,7 @@ fairplay.addEventListener('click', () => {
     tablaVallas.setAttribute(`style`, `display: none;`);
 
     fairplay.setAttribute('class', 'item-torneo fairplay active');
-    tablaFairplay.setAttribute(`style`, `display: block;`);
+    tablaFairplay.setAttribute(`style`, `display: table;`);
 
     sancionados.setAttribute('class', 'item-torneo sancionados');
     tablaSancionados.setAttribute(`style`, `display: none;`);
@@ -144,6 +144,6 @@ sancionados.addEventListener('click', () => {
     tablaFairplay.setAttribute(`style`, `display: none;`);
 
     sancionados.setAttribute('class', 'item-torneo sancionados active');
-    tablaSancionados.setAttribute(`style`, `display: block;`);
+    tablaSancionados.setAttribute(`style`, `display: table;`);
 
 });

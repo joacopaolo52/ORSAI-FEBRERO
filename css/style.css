@@ -10,6 +10,10 @@ html {
 
 }
 
+h1 {
+    font-size: 40px;
+}
+
 body {
     background-image: url('../assets/fondo.jpg');
     background-attachment: fixed;
@@ -25,50 +29,6 @@ h3 {
     display: block;
     width: 100vw;
     padding: 20px;
-}
-
-        /**************** NAVBAR *******************/
-
-nav {
-    background-color: black;
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    flex-wrap: wrap;
-}
-h1 {
-    font-size: 40px;
-    color: white;
-    margin: auto;
-
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin:auto;
-    padding: 20px;
-}
-
-nav a:hover, h1:hover {
-    color: #70b22b;
-}
-.contacto {
-    width: 50%;
-    margin: auto;
-    margin-left: 20%;
-}
-
-@media (min-width:320px) and (max-width:425px) {
-    nav a, .contacto {
-        display: none;
-    }
-    h1 {
-       padding: 10px;
-       font-size: 25px;
-    }
 }
 
         /**************** BANNER *******************/
@@ -191,4 +151,24 @@ footer {
     height: 300px;
     background-image: url('../assets/sectiontorneo.jpg');
     background-attachment: fixed;
+}
+
+ /* FOOTER  */
+
+ footer {
+    width: 100%;
+    height: 300px;
+    background-image: url('../assets/sectiontorneo.jpg');
+    background-attachment: fixed;
+    margin-bottom: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contacto-footer img {
+    width: 4rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
